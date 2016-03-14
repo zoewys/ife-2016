@@ -1,6 +1,8 @@
-# ife-homework-2016
+# IFE-Homework-2016
 
-<h3>Part One</h3>
-<a href="http://ife.baidu.com/task/all">All Tasks</a>
+Part One
+-----
 
+[Task001](http://ife.baidu.com/task/detail?taskId=1):零基础Html编码
 
+&nbsp;&nbsp;[Demo](http://zoewys.github.io/ife-2016/part1/task001/index.html)
