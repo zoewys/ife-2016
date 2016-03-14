@@ -1,11 +1,14 @@
 html{
-    width:100%;
-    height:100%;
+    width:inherit;
+    margin:0px;
+    padding:0px;
+    font-family: "Arial";
 }
 
 body{
-    width:100%;
-    height:100%;
+    width:inherit;
+    margin:0px;
+    padding:0px;
     background-color: black;
 }
 
@@ -40,15 +43,35 @@ nav li a{
     text-decoration: none;
 }
 
-nav li a:hover{
+nav li a:hover,
+nav li a.active{
     opacity: 0.8;
 }
 
 .container{
     position: absolute;
     top:70px;
-    width:100%;
-    padding-left:20px;
-    padding-right:20px;
+    width:inherit;
     background-color: #e9e9e9
+}
+
+.container article{
+    width:90%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:20px;
+    padding:20px;
+    background-color: #ffffff;
+}
+
+.container article h3{
+    color: #676767;
+}
+
+.container article .page-info{
+    color: #c4c4c4;
+}
+
+p:not(.page-info){
+    text-indent: 2em;
 }
