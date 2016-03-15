@@ -12,7 +12,7 @@ body{
     background-color: black;
 }
 
-nav{
+header{
     position: absolute;
     top: 0px;
     left:0px;
@@ -22,29 +22,29 @@ nav{
     padding-bottom:5px;
 }
 
-nav img{
+header img{
     height:90%;
     margin-left:20px;
 }
 
-nav ul{
+header ul{
     float: right;
 }
 
-nav li{
+header li{
     float: left;
     margin-right:10px;
     margin-left:10px;
 }
 
-nav li a{
+header li a{
     color:#fff;
     font-size:14px;
     text-decoration: none;
 }
 
-nav li a:hover,
-nav li a.active{
+header li a:hover,
+header li a.active{
     opacity: 0.8;
 }
 
