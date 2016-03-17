@@ -30,7 +30,8 @@ article img{
 }
 
 a:hover,
-a.active{
+a.active,
+.btn:hover{
     cursor: pointer;
     opacity: 0.7;
 }
