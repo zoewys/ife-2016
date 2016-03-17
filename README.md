@@ -11,6 +11,8 @@ Part One
 
 任务二: [零基础HTML及CSS编码（一)](http://ife.baidu.com/task/detail?taskId=2)
 
+&nbsp;&nbsp;[Demo](http://zoewys.github.io/ife-2016/part1/task002/index.html)
+
 任务三: [三栏式布局](http://ife.baidu.com/task/detail?taskId=3)
 
 任务四: [定位和居中问题](http://ife.baidu.com/task/detail?taskId=4)
