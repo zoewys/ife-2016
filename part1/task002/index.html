@@ -187,30 +187,22 @@
                     <label class="control-label" for="email">请输入邮箱地址</label>
                     <div class="form-control" >
                         <input type="email" placeholder="这是一个文本输入框" name="email" id="email">
+                        <div class="help-block">邮箱地址请按要求格式输入</div>
                     </div>
                 </div>
-               <div class="form-group">
-                    <label class="control-label"></label>
-                    <div class="control-text">邮箱地址请按要求格式输入</div>
-                </div>
-                <br>
                 <div class="form-group">
                     <label class="control-label">请输入密码</label>
                     <div class="form-control">
-                        <input type="password" placeholder="请输入密码" name="password" value="12345">
+                        <input type="password" placeholder="请输入密码" name="password" value="123456789">
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label">请重复输入密码</label>
                     <div class="form-control">
-                        <input type="password" placeholder="请输入密码" value="12345">
+                        <input type="password" placeholder="请输入密码" value="123456789">
+                        <div class="help-block">密码请为6-16位英文数字</div>
                     </div>
                 </div>
-                <div class="form-group">
-                    <label class="control-label"></label>
-                    <div class="control-text">密码请为6-16位英文数字</div>
-                </div>
-                <br>
                 <div class="form-group">
                     <label class="control-label">性别</label>
                     <div class="form-control">
@@ -237,16 +229,18 @@
                 </div>
                 <div class="form-group">
                     <label class="control-label">个人描述</label>
-                    <textarea class="form-control" name="desc" rows="6" placeholder="这是一个多行输入,输入您的个人描述"></textarea>
+                    <div class="form-control">
+                        <textarea name="desc" rows="6" placeholder="这是一个多行输入,输入您的个人描述"></textarea>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <button type="submit">确认提交</button>
+                <div class="row">
+                    <button class="btn" type="submit">确认提交</button>
                 </div>
             </form>
 
         </aside>
     </main>
 
-    <footer class="">版权所有&copy;</footer>
+    <footer class="footer">版权所有&copy;</footer>
 </body>
 </html>
