@@ -79,47 +79,47 @@
             </article>
             <article class="page">
                 <h2>图片</h2>
-                <figure>
+                <figure class="list-img">
                     <figcaption>好看的图片</figcaption>
                     <img src="img/img.png" alt="img">
                 </figure>
-                <figure>
+                <figure class="list-img">
                     <figcaption>好看的图片</figcaption>
                     <img src="img/img.png" alt="img">
                 </figure>
-                <figure>
+                <figure class="list-img">
                     <figcaption>好看的图片</figcaption>
                     <img src="img/img.png" alt="img">
                 </figure>
-                <figure>
+                <figure class="list-img">
                     <figcaption>好看的图片</figcaption>
                     <img src="img/img.png" alt="img">
                 </figure>
-                <figure>
+                <figure class="list-img">
                     <figcaption>好看的图片</figcaption>
                     <img src="img/img.png" alt="img">
                 </figure>
-                <figure>
+                <figure class="list-img">
                     <figcaption>好看的图片</figcaption>
                     <img src="img/img.png" alt="img">
                 </figure>
-                <figure>
+                <figure class="list-img">
                     <figcaption>好看的图片</figcaption>
                     <img src="img/img.png" alt="img">
                 </figure>
-                <figure>
+                <figure class="list-img">
                     <figcaption>好看的图片</figcaption>
                     <img src="img/img.png" alt="img">
                 </figure>
-                <figure>
+                <figure class="list-img">
                     <figcaption>好看的图片</figcaption>
                     <img src="img/img.png" alt="img">
                 </figure>
-                <figure>
+                <figure class="list-img">
                     <figcaption>好看的图片</figcaption>
                     <img src="img/img.png" alt="img">
                 </figure>
-                <figure>
+                <figure class="list-img">
                     <figcaption>好看的图片</figcaption>
                     <img src="img/img.png" alt="img">
                 </figure>
@@ -178,35 +178,70 @@
 
         </section>
 
-        <aside class="page">
-
-            <h2>这里以后是一个侧栏, 这是侧栏的标题</h2>
-            <form action="">
-                <p>请输入邮箱地址: <input type="email" placeholder="这是一个文本输入框" name="email"></p>
-                <p>邮箱地址请按要求格式输入</p>
-                <p>
-                    请输入密码: <input type="password" placeholder="请输入密码" name="password">
-                    请重复输入密码: <input type="password" placeholder="请输入密码">
-                    <br>
-                    密码请为6-16位英文数字
-                </p>
-                <p>
-                    性别:&nbsp;
-                    <input type="radio" name="gender" value="male" checked>男
-                    <input type="radio" name="gender" value="female">女
-                    &nbsp;城市:&nbsp;
-                    <select name="city">
-                        <option value="beijing">北京</option>
-                        <option value="shanghai">上海</option>
-                    </select>
-                    &nbsp;爱好:&nbsp;
-                    <input type="checkbox" value="sport" name="hobby">运动
-                    <input type="checkbox" value="art" name="hobby">艺术
-                    <input type="checkbox" value="science" name="hobby">科学
-                    &nbsp;个人描述:&nbsp;
-                    <textarea name="desc" rows="2" placeholder="这是一个多行输入,输入您的个人描述"></textarea>
-                    <button type="submit">确认</button>
-                </p>
+        <aside class="page sidebar">
+            <h3 class="sidebar-header">
+              这里以后是一个侧栏, 这是侧栏的标题
+            </h3>
+            <form action="" class="main-form">
+                <div class="form-group">
+                    <label class="control-label" for="email">请输入邮箱地址</label>
+                    <div class="form-control" >
+                        <input type="email" placeholder="这是一个文本输入框" name="email" id="email">
+                    </div>
+                </div>
+               <div class="form-group">
+                    <label class="control-label"></label>
+                    <div class="control-text">邮箱地址请按要求格式输入</div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label class="control-label">请输入密码</label>
+                    <div class="form-control">
+                        <input type="password" placeholder="请输入密码" name="password" value="12345">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">请重复输入密码</label>
+                    <div class="form-control">
+                        <input type="password" placeholder="请输入密码" value="12345">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label"></label>
+                    <div class="control-text">密码请为6-16位英文数字</div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label class="control-label">性别</label>
+                    <div class="form-control">
+                        <input type="radio" name="gender" value="male" checked>男
+                        <input type="radio" name="gender" value="female">女
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">城市</label>
+                    <div class="form-control">
+                        <select name="city">
+                            <option value="beijing">北京</option>
+                            <option value="shanghai">上海</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">爱好</label>
+                    <div class="form-control">
+                        <input type="checkbox" value="sport" name="hobby">运动
+                        <input type="checkbox" value="art" name="hobby">艺术
+                        <input type="checkbox" value="science" name="hobby">科学
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">个人描述</label>
+                    <textarea class="form-control" name="desc" rows="6" placeholder="这是一个多行输入,输入您的个人描述"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">确认提交</button>
+                </div>
             </form>
 
         </aside>

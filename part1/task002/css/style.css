@@ -17,6 +17,12 @@ article img{
     height:200px;
 }
 
+button{
+    border:1px solid dodgerblue;
+    background-color: dodgerblue;
+    color: #fff;
+}
+
 a:hover,
 a.active{
     cursor: pointer;
@@ -79,7 +85,7 @@ a.active{
     color: #c4c4c4;
 }
 
-.page figure{
+.page .list-img{
     width:300px;
     padding:10px;
     border:1px solid #5d5d5d;
@@ -112,6 +118,42 @@ table tfoot{
 }
 
 
+.sidebar .sidebar-header{
+    border-left:3px solid #c7c7c7;
+    padding-left:10px;
+}
+
+.main-form{
+    width:100%;
+    text-align: center;
+}
+
+.form-group{
+    width:100%;
+    margin-top:20px;
+    margin-right:20px;
+    white-space: nowrap;
+}
+
+.control-label{
+    display: inline-block;
+    width:30%;
+    margin-right:10px;
+    text-align: right;
+}
+
+.form-control,
+.control-text{
+    display: inline-block;
+    width:60%;
+    text-align: left;
+}
+
+.control-text{
+    margin-top:-16px;
+    font-size:14px;
+    opacity: 0.4;
+}
 
 footer{
     padding-top:10px;
