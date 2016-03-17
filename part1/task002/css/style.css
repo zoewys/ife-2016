@@ -68,7 +68,7 @@ a.active{
     padding:20px;
     background-color:#fff;
     border: solid 1px #dadada;
-    box-shadow: 0px 4px 4px -3px #5d5d5d
+    box-shadow: 0px 4px 4px -3px #5d5d5d;
 }
 
 .page h3{
@@ -89,6 +89,28 @@ a.active{
 p:not(.page-info){
     text-indent: 2em;
 }
+
+table{
+    width:100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td{
+    border:1px solid #c7c7c7;
+}
+
+table thead{
+    background-color:#000;
+    color: #fff;
+}
+
+table tfoot{
+    background-color: #c7c7c7;
+}
+
 
 
 footer{
