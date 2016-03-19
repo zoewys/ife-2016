@@ -7,11 +7,11 @@ Part One
 
 任务一: [零基础Html编码](http://ife.baidu.com/task/detail?taskId=1)
 
-&nbsp;&nbsp;[Demo](http://zoewys.github.io/ife-2016/part1/task001/index.html)
+&nbsp;&nbsp;[Demo](http://zoewys.github.io/ife-2016/part1/task01/index.html)
 
 任务二: [零基础HTML及CSS编码（一)](http://ife.baidu.com/task/detail?taskId=2)
 
-&nbsp;&nbsp;[Demo](http://zoewys.github.io/ife-2016/part1/task002/index.html)
+&nbsp;&nbsp;[Demo](http://zoewys.github.io/ife-2016/part1/task02/index.html)
 
 任务三: [三栏式布局](http://ife.baidu.com/task/detail?taskId=3)
 
