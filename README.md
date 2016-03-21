@@ -34,3 +34,54 @@ Part One
 任务十二: [学习CSS 3的新特性](http://ife.baidu.com/task/detail?taskId=12)
 
 
+Part Two
+-----
+
+
+任务十三: [零基础JavaScript编码（一)](http://ife.baidu.com/task/detail?taskId=13)
+
+任务十四: [零基础JavaScript编码（二)](http://ife.baidu.com/task/detail?taskId=14)
+
+任务十五: [零基础JavaScript编码（三)](http://ife.baidu.com/task/detail?taskId=15)
+
+任务十六: [零基础JavaScript编码（四)](http://ife.baidu.com/task/detail?taskId=16)
+
+任务十七: [零基础JavaScript编码（五)](http://ife.baidu.com/task/detail?taskId=17)
+
+任务十八: [基础JavaScript练习（一)](http://ife.baidu.com/task/detail?taskId=18)
+
+任务十九: [基础JavaScript练习（二)](http://ife.baidu.com/task/detail?taskId=19)
+
+任务二十: [基础JavaScript练习（三)](http://ife.baidu.com/task/detail?taskId=20)
+
+任务二十一: [基础JavaScript练习（四)](http://ife.baidu.com/task/detail?taskId=21)
+
+任务二十二: [JavaScript和树（一)](http://ife.baidu.com/task/detail?taskId=22)
+
+任务二十三: [JavaScript和树（二)](http://ife.baidu.com/task/detail?taskId=23)
+
+任务二十四: [JavaScript和树（三)](http://ife.baidu.com/task/detail?taskId=24)
+
+任务二十五: [JavaScript和树（四)](http://ife.baidu.com/task/detail?taskId=25)
+
+任务二十六: [行星和飞船（一)](http://ife.baidu.com/task/detail?taskId=26)
+
+任务二十七: [行星和飞船（二)](http://ife.baidu.com/task/detail?taskId=27)
+
+任务二十八: [行星和飞船（三)](http://ife.baidu.com/task/detail?taskId=28)
+
+任务二十九: [表单（一）单个表单项的检验](http://ife.baidu.com/task/detail?taskId=29)
+
+任务三十: [表单（二）多个表单项的动态校验](http://ife.baidu.com/task/detail?taskId=30)
+
+任务三十一: [表单（三）联动](http://ife.baidu.com/task/detail?taskId=31)
+
+任务三十二: [表单（四）实现表单自动生成工厂](http://ife.baidu.com/task/detail?taskId=32)
+
+任务三十三: [听指令的小方块（一）](http://ife.baidu.com/task/detail?taskId=33)
+
+任务三十四: [听指令的小方块（二）](http://ife.baidu.com/task/detail?taskId=34)
+
+任务三十五: [听指令的小方块（三）](http://ife.baidu.com/task/detail?taskId=35)
+
+任务三十六: [听指令的小方块（四）](http://ife.baidu.com/task/detail?taskId=36)
