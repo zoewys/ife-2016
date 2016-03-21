@@ -1,0 +1,200 @@
+html,
+body{
+    width:inherit;
+    margin:0px;
+    padding:0px;
+    font-family: "Arial";
+    background-color:black;
+}
+
+header,
+footer{
+    height:50px;
+    color:#fff;
+}
+
+article img{
+    height:200px;
+}
+
+.btn{
+    width: 100%;
+    padding:5px;
+    font-size: 16px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgba(30, 143, 254, 0);
+    border-radius:5px;
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+a:hover,
+a.active,
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+
+.container,
+.page{
+    width:90%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.container-fluid{
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#e9e9e9;
+}
+
+.navbar{
+    /*height:50px;*/
+    font-size:14px;
+}
+
+.navbar .logo{
+    height:90%;
+}
+
+.navbar-nav{
+    float:right;
+}
+
+.navbar-nav li{
+    float: left;
+    margin-right:10px;
+    margin-left:10px;
+    white-space: nowrap;
+}
+
+.navbar-nav a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.page{
+    padding:20px;
+    background-color:#fff;
+    border: solid 1px #dadada;
+    box-shadow: 0px 4px 4px -3px #5d5d5d;
+}
+
+.page h3{
+    color: #676767;
+}
+
+.page .page-info{
+    color: #c4c4c4;
+}
+
+.page .list-img{
+    width:300px;
+    padding:10px;
+    border:1px solid #5d5d5d;
+    text-align: center;
+}
+
+p:not(.page-info){
+    text-indent: 2em;
+}
+
+table{
+    width:100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td{
+    border:1px solid #c7c7c7;
+}
+
+table thead{
+    background-color:#000;
+    color: #fff;
+}
+
+table tfoot{
+    background-color: #c7c7c7;
+}
+
+
+.left-content{
+    display: inline-block;
+    width:calc(100% - 400px);
+}
+
+.sidebar{
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+    margin-top:15px;
+    padding:10px;
+    width:360px;
+    background-color: #ffffff;
+}
+
+.sidebar .sidebar-header{
+    border-left:3px solid #c7c7c7;
+    padding-left:10px;
+}
+
+
+.main-form{
+    width:100%;
+    text-align: center;
+    display: table;
+}
+
+.form-group{
+    display: table-row-group;
+    width:inherit;
+}
+
+.control-label,
+.form-control{
+    display: table-cell;;
+    vertical-align: top;
+    padding:10px;
+}
+
+.control-label{
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form-control,
+.help-block{
+    text-align: left;
+}
+
+.form-control textarea{
+    width: 100%;
+}
+
+.help-block{
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-size:14px;
+    opacity: 0.4;
+}
+
+.row{
+    display: table-caption;
+    text-align: center;
+    caption-side: bottom;
+}
+
+.footer{
+    padding-top:10px;
+    text-align:center;
+}
