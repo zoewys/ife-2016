@@ -95,10 +95,17 @@ a.active,
 }
 
 .page .list-img{
-    width:300px;
-    padding:10px;
+    display: inline-block;
+    width:20%;
+    margin-left:0px;
+    margin-right: 0px;
+    padding:5px;
     border:1px solid #5d5d5d;
     text-align: center;
+}
+
+.list-img img{
+    height: 100px;
 }
 
 p:not(.page-info){
