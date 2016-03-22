@@ -52,10 +52,10 @@
 
         for(i=0;i<list.length;i++){
             var record = [];
-            text = list[i].innerText;
+            text = list[i].textContent;
             record.push(text.substring(0,text.indexOf('空气质量')));
             b = list[i].getElementsByTagName('b')[0];
-            record.push(b.innerText);
+            record.push(b.textContent);
 
             data.push(record);
         }
