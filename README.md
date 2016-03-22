@@ -17,6 +17,8 @@ Part One
 
 任务四: [定位和居中问题](http://ife.baidu.com/task/detail?taskId=4)
 
+&nbsp;&nbsp;[Demo](http://zoewys.github.io/ife-2016/part1/task04/index.html)
+
 任务五: [零基础HTML及CSS编码（二)](http://ife.baidu.com/task/detail?taskId=5)
 
 &nbsp;&nbsp;[Demo](http://zoewys.github.io/ife-2016/part1/task05/index.html)
