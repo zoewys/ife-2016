@@ -197,6 +197,7 @@ ul{
     width: 160px;
     margin-left:auto;
     margin-right:auto;
+    font-size: 14px;
     color:#6e8095;
 }
 
@@ -216,12 +217,18 @@ ul{
 
 .sidebar .menu{
     padding-left: 0px;
-    text-align: center;
+    text-align: left;
+    font-size: 14px;
     color:#6d8095;
 }
 
 .sidebar .menu .m-item{
+    padding-left: 40px;
     line-height: 35px;
+}
+
+.sidebar .menu .m-item .fa{
+    margin-right: 15px;
 }
 
 .sidebar .menu .m-item:hover{
@@ -237,6 +244,7 @@ ul{
 }
 
 .sidebar .submenu{
+    padding-left: 20px;
     color:#6d8095;
 }
 
@@ -251,5 +259,44 @@ ul{
     position: relative;
     float: right;
     width: calc(100% - 260px);
+    overflow-x: hidden;
     /*background-color: blue;*/
 }
+
+.section .tbar{
+    width: 100%;
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: #ffffff;
+}
+
+.section .tbar .path{
+    font-size:14px;
+    color:#aaa;
+}
+
+.section .tbar .path:hover,
+.section .tbar .path.active{
+    color:#2189bf;
+}
+
+.section .tbar .path:not(:last-child):after{
+    content:' / ';
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.section .row{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.section .search-form{
+    height: 100px;
+    background-color: #ffffff;
+}
+
