@@ -13,6 +13,14 @@ a:hover{
     opacity: 0.8;
 }
 
+p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+ul{
+    list-style-type: none;
+}
+
 .row:before,
 .row:after{
     content: '';
@@ -144,7 +152,9 @@ a:hover{
 }
 
 .sidebar .s-user{
-    width: inherit;
+    margin-left:auto;
+    margin-right:auto;
+    width: 160px;
     height: 80px;
     color:#bababe;
 }
@@ -152,8 +162,7 @@ a:hover{
 .sidebar .s-user .photo,
 .sidebar .s-user .username{
     position: relative;
-    display: inline-block;
-    width: 45%;
+    width: 50%;
     height: inherit;
     margin-top:20px;
 }
@@ -183,15 +192,57 @@ a:hover{
 }
 
 .sidebar .s-info{
+    position: relative;
     height: 100px;
+    width: 160px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#6e8095;
 }
 
 .sidebar .s-info .l-col,
 .sidebar .s-info .r-col{
-    width:50%;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    padding-left:20px;
+    padding-right: 20px;
     /*background-color:red;*/
 }
 
+.sidebar .s-info .l-col{
+    border-right: 2px solid #313545;
+}
+
+.sidebar .menu{
+    padding-left: 0px;
+    text-align: center;
+    color:#6d8095;
+}
+
+.sidebar .menu .m-item{
+    line-height: 35px;
+}
+
+.sidebar .menu .m-item:hover{
+    margin:0px;
+    cursor: pointer;
+    background-color:#383d4e;
+    color:#fff;
+}
+
+.sidebar .menu .m-item.active{
+    background-color:#383d4e;
+    color:#fff;
+}
+
+.sidebar .submenu{
+    color:#6d8095;
+}
+
+.sidebar .submenu .s-item.active{
+    color:#fff;
+}
 
 /*
     right container
