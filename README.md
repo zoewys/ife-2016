@@ -54,6 +54,8 @@ Part Two
 
 任务十六: [零基础JavaScript编码（四)](http://ife.baidu.com/task/detail?taskId=16)
 
+&nbsp;&nbsp;[Demo](http://zoewys.github.io/ife-2016/part2/task16/index.html)
+
 任务十七: [零基础JavaScript编码（五)](http://ife.baidu.com/task/detail?taskId=17)
 
 任务十八: [基础JavaScript练习（一)](http://ife.baidu.com/task/detail?taskId=18)
