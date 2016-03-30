@@ -21,14 +21,24 @@
      * 然后渲染aqi-list列表，增加新增的数据
      */
     var addAqiData = function(){
-        var city = cityInput.value;
-        var aqiValue = aqiValueInput.value;
+        var city = cityInput.value.trim();
+        var aqiValue = aqiValueInput.value.trim();
 
-        aqiData[city] = aqiValue;
+        checkAddedData(city,aqiValue) && (aqiData[city] = aqiValue);
     };
 
     var checkAddedData = function(city,value){
 
+        if(!city.match(/^[\u4e00-\u9fa5A-Za-z]+$/)){
+            alert('城市名必须是中英文字');
+            return false;
+        }
+        if(!value.match(/^[0-9]+$/)){
+            alert('空气质量必须是整数');
+            return false;
+        }
+
+        return true;
     };
 
     /**
@@ -42,7 +52,7 @@
                 '<td>操作</td>' +
             '</tr>';
 
-        for (var i in aqiData) {
+        for(var i in aqiData) {
             trHtml = trHtml +
                 '<tr>' +
                     '<td>' + i + '</td>' +
@@ -79,6 +89,7 @@
         // 在这下面给add-btn绑定一个点击事件，点击时触发addBtnHandle函数
         var addBtn = document.getElementById('add-btn');
         addBtn.onclick = addBtnHandle;
+
         // 想办法给aqi-table中的所有删除按钮绑定事件，触发delBtnHandle函数
         table.onclick = function(e){
             e.preventDefault();
