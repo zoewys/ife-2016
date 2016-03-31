@@ -5,7 +5,7 @@
     <title>Task09</title>
 
     <link type="text/css" href="css/style.css" rel="stylesheet">
-    <!--<link href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.css" rel="stylesheet">-->
+    <link href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
         <header class="row navbar">
@@ -87,13 +87,27 @@
                 <a class="path active" href="#">文档一</a>
             </nav>
             <form class="row search-form">
-                <div class="col">
+                <div class="col-1">
                     <label class="label">查询项</label>
-                    <ul class="select form-control">
-                        <li>文件一</li>
-                        <li>文件二</li>
-                        <li>文件三</li>
-                    </ul>
+                    <div class="select form-control">
+                        <a href="#">第一项<i class="fa fa-chevron-down"></i></a>
+                        <ul>
+                            <li>第一项</li>
+                            <li>第二项</li>
+                            <li>第三项</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <label class="label">查询项</label>
+                    <div class="select form-control">
+                        <a href="#">第一项<i class="fa fa-chevron-down"></i></a>
+                        <ul>
+                            <li>第一项</li>
+                            <li>第二项</li>
+                            <li>第三项</li>
+                        </ul>
+                    </div>
                 </div>
             </form>
         </section>
