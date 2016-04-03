@@ -25,6 +25,15 @@ ul{
     list-style-type: none;
 }
 
+input{
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #aaa;
+}
+
 .row:before,
 .row:after{
     content: '';
@@ -118,7 +127,7 @@ ul{
     padding-top: 2px;
     padding-bottom: 2px;
     border: 1px solid #aaa;
-    width: 100%;
+    width: inherit;
 }
 
 .select a .fa{
@@ -126,7 +135,7 @@ ul{
     font-size: 80%;
     color: #2189bf;
     position: absolute;
-    top: 8px;
+    top: 4px;
     right: 5px;
 }
 
@@ -139,21 +148,36 @@ ul{
 .select ul{
     position: absolute;
     display: none;
-    top:10px;
+    z-index: 99;
+    top: 8px;
+    left: 0px;
     float: left;
     width: 100%;
     padding-left: 0px;
     background-color: #fff;
-    border-left:1px solid #ccc;
-    border-right:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .select a:hover+ul{
     display: block;
 }
 
+/*
+    button
+*/
+.btn{
+    padding:5px 10px;
+    border:none;
+    background-color:#2189bf;
+    color:#fff;
+}
 
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
 
 
 /*
@@ -234,8 +258,8 @@ ul{
 .sidebar .s-user .photo .circle:after{
     content: '';
     position: absolute;
-    left:2px;
-    top: 2px;
+    left:1px;
+    top: 1px;
     width:46px;
     height:46px;
     background-color:#bababe;
@@ -356,28 +380,159 @@ ul{
     font-size:14px;
     padding:15px;
     background-color: #ffffff;
+    border:1px solid rgba(170, 170, 170, 0.5);
+}
+
+.section .search-form .form-group{
+    margin-bottom:10px;
+}
+
+.section .search-form .label,
+.section .search-form .form-control{
+    margin-left:10px;
+    margin-right:10px;
 }
 
 .section .search-form .label{
-    width: 40%;
-    padding-right: 10px;
-    text-align: right;
+    width: 30%;
 }
 
 .section .search-form .form-control{
-    width: 60%;
+    width:50%;
 }
 
 .section .search-form [class*='col-']{
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
+    /*display: inline-flex;*/
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+    height: 100%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .section .search-form .col-1{
-    width: 15%;
+    width: 18%;
 }
 
 .section .search-form .col-2{
-    width:25%;
+    width:24%;
+}
+
+.section .search-form .col-3{
+    width:40%;
+}
+
+.section .search-form .col-3 input{
+    margin-right:15px;
+}
+
+.section .search-form .col-3 .form-row{
+    display: inline-block;
+    width: 120px;
+}
+
+.section .search-form .col-3 .form-row2:first-child{
+    display: inline-block;
+    width:100px;
+}
+
+.section .search-form .col-3 .form-row2:last-child{
+    display: inline-block;
+    width:220px;
+}
+
+.section .history .prev,
+.section .history .next,
+.section .history .block,
+.section .history .search{
+    float:left;
+    height:64px;
+    margin-right:5px;
+    background-color:#fff;
+    border:1px solid rgba(170, 170, 170, 0.5);
+}
+
+.section .history :last-child{
+    margin-right:0px;
+}
+
+.section .history .prev,
+.section .history .next{
+    width:3%;
+    color:#aaa;
+}
+
+.section .history .prev .fa,
+.section .history .next .fa{
+    width:100%;
+    text-align: center;
+    line-height: 60px;
+}
+
+.section .history .block{
+    position: relative;
+    width:12%;
+}
+
+.section .history .block:hover,
+.section .history .search:hover{
+    cursor: pointer;
+}
+
+.section .history .block.active:before{
+    content: '';
+    position: absolute;
+    top:0px;
+    width:100%;
+    height: 4px;
+    background-color:#2189bf;
+}
+
+.section .history .block:hover:before{
+    content: '';
+    position: absolute;
+    top:0px;
+    width:100%;
+    height: 4px;
+    background-color:#2189bf;
+}
+
+.section .block .time{
+    margin-top:6px;
+    text-align: center;
+    font-size:14px;
+}
+
+.section .block .cost{
+    margin-top:6px;
+    text-align: center;
+    font-size:24px;
+    color: #ec6500;
+}
+
+.section .block .cost .fa{
+    font-size:18px;
+    color:#aaa;
+}
+
+.section .history .search{
+    display: inline-table;
+    width:calc( 22% - 40px );
+    padding-top:6px;
+    padding-left:20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.section .history .search .fa{
+    display: table-cell;
+    font-size:34px;
+    color:#2189bf;
+    vertical-align: middle;
+}
+
+.section .history .search .text{
+    display: table-cell;
+    vertical-align: middle;
 }
