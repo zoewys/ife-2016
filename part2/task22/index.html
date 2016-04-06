@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task22</title>
+
+
+    <style>
+        div{
+            box-sizing: border-box;
+        }
+
+        .root{
+            display: flex;
+            flex-direction: row;
+            width:800px;
+            height: 150px;
+            padding:10px;
+            margin-top:30px;
+            margin-left:auto;
+            margin-right: auto;
+            border:1px solid #000;
+            background-color: #fff;
+        }
+
+        .child-1,.child-2,.child-3{
+            display: flex;
+            flex-direction: row;
+            width: 45%;
+            height: 100%;
+            padding:10px;
+            margin-left:auto;
+            margin-right: auto;
+            border:1px solid #000;
+            background-color: #fff;
+        }
+
+        .btn-group{
+            width:800px;
+            height: 100px;
+            padding:10px;
+            font-size:18px;
+            margin-left:auto;
+            margin-right: auto;
+        }
+
+        .active{
+            background-color:#aaa;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="root" class="root">
+        <div class="child-1">
+            <div class="child-2">
+                <div class="child-3"></div>
+                <div class="child-3"></div>
+            </div>
+            <div class="child-2">
+                <div class="child-3"></div>
+                <div class="child-3"></div>
+            </div>
+        </div>
+        <div class="child-1">
+            <div class="child-2">
+                <div class="child-3"></div>
+                <div class="child-3"></div>
+            </div>
+            <div class="child-2">
+                <div class="child-3"></div>
+                <div class="child-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn-group">
+        <button id="pre-btn">前序遍历</button>
+        <button id="in-btn">中序遍历</button>
+        <button id="post-btn">后序遍历</button>
+        <label>间隔时间</label>
+        <input id="time" type="text" value="100">ms
+    </div>
+
+    <script src="js/task.js"></script>
+</body>
+</html>

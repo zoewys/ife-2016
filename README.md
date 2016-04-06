@@ -68,6 +68,8 @@ Part Two
 
 任务二十二: [JavaScript和树（一)](http://ife.baidu.com/task/detail?taskId=22)
 
+&nbsp;&nbsp;[Demo](http://zoewys.github.io/ife-2016/part2/task22/index.html)
+
 任务二十三: [JavaScript和树（二)](http://ife.baidu.com/task/detail?taskId=23)
 
 任务二十四: [JavaScript和树（三)](http://ife.baidu.com/task/detail?taskId=24)
