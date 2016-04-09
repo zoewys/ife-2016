@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="tree"></div>
+
+    <a class="fa fa-folder">test</a>
+    <ul>
+        <li>
+            <a>test</a>
+        </li>
+        <li>test</li>
+    </ul>
+
+    <script src="js/tree-menu.js"></script>
+    <script>
+        var data = {
+            id:'1',
+            name:'root',
+            children:[
+                {
+                    id:'11',
+                    name:'child1',
+                    children:[
+                        {
+                            id:'111',
+                            name:'child2'
+                        }
+                    ]
+                },
+                {
+                    id:'12',
+                    name:'child1'
+                },
+                {
+                    id:'13',
+                    name:'child1'
+                }
+            ]
+        };
+    </script>
+</body>
+</html>
