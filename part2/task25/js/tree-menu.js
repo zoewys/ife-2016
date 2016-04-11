@@ -40,6 +40,11 @@
     };
 
     var _init = function(){
+        
+    };
+
+    // render tree menu html
+    var _render = function(){
 
     };
 
@@ -59,7 +64,9 @@
                 expanded:'fa fa-chevron-down',
                 unexpanded:'fa fa-chevron-right'
             }
-        }
+        };
+        
+        _init(config);
 
     };
 

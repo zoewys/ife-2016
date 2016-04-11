@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <link href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
     <div id="tree"></div>
 
-    <a class="fa fa-folder">test</a>
+    <a class="fa fa-folder"></a>
+    <a>test</a>
     <ul>
         <li>
-            <a>test</a>
+            <a class="fa fa-folder"></a>
+            <a>chil1</a>
         </li>
-        <li>test</li>
+        <li>
+            <a class="fa fa-folder"></a>
+            <a>child1</a>
+        </li>
+        <li>
+            <a class="fa fa-folder"></a>
+            <a>child1</a>
+            <ul>
+                <li>
+                    <a class="fa fa-file"></a>
+                    <a>child1-1</a>
+                </li>
+            </ul>
+        </li>
     </ul>
 
     <script src="js/tree-menu.js"></script>
