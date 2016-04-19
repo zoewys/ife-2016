@@ -74,7 +74,7 @@ Part Two
 
 <!--任务二十四: [JavaScript和树（三)](http://ife.baidu.com/task/detail?taskId=24)-->
 
-任务二十五: [JavaScript和树（四)](http://ife.baidu.com/task/detail?taskId=25)
+<!--任务二十五: [JavaScript和树（四)](http://ife.baidu.com/task/detail?taskId=25)-->
 
 <!--任务二十六: [行星和飞船（一)](http://ife.baidu.com/task/detail?taskId=26)-->
 
@@ -97,3 +97,7 @@ Part Two
 <!--任务三十五: [听指令的小方块（三）](http://ife.baidu.com/task/detail?taskId=35)-->
 
 <!--任务三十六: [听指令的小方块（四）](http://ife.baidu.com/task/detail?taskId=36)-->
+
+任务四十: [UI组件之日历组件（一）](http://ife.baidu.com/task/detail?taskId=40)
+      
+&nbsp;&nbsp;[Demo](http://zoewys.github.io/zCalendar/index.html)
